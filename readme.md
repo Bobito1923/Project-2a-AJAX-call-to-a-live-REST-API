@@ -1,6 +1,6 @@
 # Projekti 2a: AJAX-sovellus REST APIa hyödyntäen *tekija: Kiryl Kirychenka*
 ## Verkkolinkit:
-https://69c5a2d9456bd61a8c2e0e4c--zippy-beijinho-4e9865.netlify.app - **Netlify**
+https://ajax-projekti2a.netlify.app - **Netlify**
 ___
 https://drive.google.com/file/d/16rzqB43O7skgSSxmmdSDsFFNZeWgAbbB/view?usp=sharing - **Esittelyvideoon**
 
@@ -45,7 +45,7 @@ Dynaaminen käyttöliittymä - sisältö päivittyy ilman sivun uudelleenlataust
 
  ### Kuvakaappaukset
   ___
-![Esimerkki albumien hausta]
+![Esimerkki albumien hausta](https://github.com/Bobito1923/Project-2a-AJAX-call-to-a-live-REST-API/blob/9108e306fe3a34d636c4e713394f9c4b245c42ca/Screenshot%202026-05-05%20002705.png)
 
  ### Asennus
   ___
