@@ -25,22 +25,27 @@ Työpajat ja niihin annetut tehtävät auttoivat paljon, eikä projektin tekemin
 KiriNote on verkkosovellus, joka mahdollistaa tiedon hakemisen artisteista, heidän albumeistaan ja jopa kappaleistaan. Lisäksi niitä voi lisätä omaan kirjastoon.
 Sovelluksessa voi:
 
-Artistin haku - käyttäjä voi hakea artistia nimellä  
-Albumien näyttö - näyttää valitun artistin suosituimmat albumit  
-Kappaleiden näyttö - näyttää artistin suosituimmat kappaleet  
-Välilehtien vaihto - käyttäjä voi vaihtaa albumien ja kappaleiden välillä  
-Albumin tiedot - klikkaamalla albumia näkee sen kappaleet  
-Etusivu - näyttää tervetuloviestin ja suosittuja artisteja  
-Kirjasto (Library) - voi tallentaa albumeita suosikkeihin  
-Poisto kirjastosta - voi poistaa tallennettuja kohteita  
-Dynaaminen käyttöliittymä - sisältö päivittyy ilman sivun uudelleenlatausta  
+Artistin haku - käyttäjä voi hakea artistia nimellä
 
- ### Tunnetut virheet/bugit
-  ___
-Käytön aikana en oikeastaan huomannut mitään merkittäviä bugeja – kaikki toimii melko tasaisesti.
+Albumien näyttö - näyttää valitun artistin suosituimmat albumit
+
+Kappaleiden näyttö - näyttää artistin suosituimmat kappaleet
+
+Välilehtien vaihto - käyttäjä voi vaihtaa albumien ja kappaleiden välillä 
+
+Albumin tiedot - klikkaamalla albumia näkee sen kappaleet
+
+Etusivu - näyttää tervetuloviestin ja suosittuja artisteja
+
+Kirjasto (Library) - voi tallentaa albumeita suosikkeihin
+
+Poisto kirjastosta - voi poistaa tallennettuja kohteita
+
+Dynaaminen käyttöliittymä - sisältö päivittyy ilman sivun uudelleenlatausta
+
  ### Kuvakaappaukset
   ___
-![Esimerkki albumien hausta](https://github.com/Bobito1923/Web-kehitys-1-front-end-TO00CD50-3001/blob/fbb30544c07b4516e594b3a4d74bd4f9f19002d3/ToDo-lista(Projekti-1)/ToDo%20-list%20screenshot.png)
+![Esimerkki albumien hausta]
 
  ### Asennus
   ___
@@ -49,17 +54,29 @@ Sovelluksen käyttämiseksi täytyy ladata kaikki tiedostot paitsi lisenssi ja R
  ___
 
 HTML – verkkosivun rakenne
+
 CSS – ulkoasu ja asettelu (flexbox, grid, UI)
+
 JavaScript (Vanilla JS) – sovelluksen logiikka ja interaktiivisuus
+
 DOM-manipulaatio – elementtien luominen ja päivittäminen dynaamisesti
+
 Tapahtumankuuntelijat – käyttäjän toimien käsittely (klikkaus, syöte)
+
 AJAX (XMLHttpRequest) – datan hakeminen ilman sivun uudelleenlatausta
+
 REST API (Last.fm API) – musiikkidatan hakeminen palvelimelta
+
 JSON – API:n käyttämä tiedostomuoto
+
 localStorage – käyttäjän suosikkien tallentaminen selaimeen
+
+## Tunnetut virheet/bugit
+  ___
+Kun katsoin omaa videotani, huomasin CSS-virheitä, jotka heikensivät ulkoasua. Kun tarkistin koodin uudelleen, ymmärsin, että luokkien nimissä oli virheitä.
 
  ## Kiitokset
 
 
  ## Lisenssi
-MIT-lisenssi @ kiryl.kirychenka20@gmail.com
+Apachi-lisenssi @ kiryl.kirychenka20@gmail.com
