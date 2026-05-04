@@ -76,7 +76,11 @@ localStorage – käyttäjän suosikkien tallentaminen selaimeen
 Kun katsoin omaa videotani, huomasin CSS-virheitä, jotka heikensivät ulkoasua. Kun tarkistin koodin uudelleen, ymmärsin, että luokkien nimissä oli virheitä.
 
  ## Kiitokset
+"JAVASCRIPT CRASH COURSE" - **Nick Morgan**
+*Tämän kirjan avulla opiskelin JavaScriptiä oppituntien ulkopuolella, ja se auttoi minua todella paljon työskentelyssä sekä paransi ymmärrystäni kielestä. Opiskelen sen avulla edelleen.*
 
+https://www.w3schools.com - **W3Schools**
+*Kuten aina, tämä sivusto auttaa minua kaikissa web-ohjelmointiin liittyvissä kysymyksissä, erityisesti silloin kun etsin tietoa JavaScriptistä.*
 
  ## Lisenssi
-Apachi-lisenssi @ kiryl.kirychenka20@gmail.com
+Apachi-lisenssi 2.0 @ kiryl.kirychenka20@gmail.com
