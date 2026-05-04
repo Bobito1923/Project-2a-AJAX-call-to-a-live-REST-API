@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #111827, #1e293b);
+  color: white;
+  min-height: 100vh;
+}
+
+.navbar {
+  height: 75px;
+  padding: 0 40px;
+  background: rgba(17, 24, 39, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1db954;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #d1d5db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #1db954;
+}
+
+.nav-search {
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-search input {
+  width: 260px;
+  padding: 12px 18px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.nav-search button {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  background: #1db954;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-search button:hover {
+  background: #1ed760;
+}
+
+.suggestions {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 260px;
+  background: #181818;
+  border-radius: 14px;
+  list-style: none;
+  padding: 8px;
+  margin: 0;
+  display: none;
+  z-index: 100;
+}
+
+.suggestions li {
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background: #282828;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 25px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #cbd5e1;
+}
+
+.album-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.album-row img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.album-info h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.album-info p {
+  margin: 5px 0;
+  color: #b3b3b3;
+}
+
+.album-card {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #2a2a2a;
+  background: transparent;
+}
+
+.search-tab {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.search-tab button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background: #282828;
+  color: white;
+  cursor: pointer;
+}
+
+.search-tab button:hover {
+  background: #333;
+}
+
+.active-tab {
+  background: #1db954 !important;
+}
+
+.track-number {
+  width: 50px;
+  height: 50px;
+  background: #1db954;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.like-btn,
+.remove-btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.like-btn {
+  background: #1db954;
+  color: white;
+}
+
+.remove-btn {
+  background: #ef4444;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-links {
+    gap: 18px;
+  }
+
+  .nav-search {
+    width: 100%;
+  }
+
+  .nav-search input {
+    width: 100%;
+  }
+}

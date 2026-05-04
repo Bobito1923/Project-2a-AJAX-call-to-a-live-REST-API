@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KiriNote</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">KiriNote</div>
+
+        <ul class="nav-links">
+            <li><a href="#" id="homeLink">Home</a></li>
+            <li><a href="#" id="libraryLink">Library</a></li>
+        </ul>
+
+        <div class="nav-search">
+            <input id="artistInput" type="text" placeholder="Search artist...">
+            <button id="searchBtn">Search</button>
+            <ul id="suggestions" class="suggestions"></ul>
+        </div>
+  </nav>
+  <main class="app">
+        <section class="hero">
+            <h1>Music Finder</h1>
+            <div class="search-tab">
+                <button id="albumsTab" class="active-tab">Albums</button>
+                <button id="tracksTab">Tracks</button>
+            </div>
+            <p>Search artists and discover their top tracks</p>
+            <p id="message">Search artist to find songs.</p>
+            </section>
+
+        <section id="albums" class="tracks-grid"></section>
+    </main>
+</body>
+</html>
